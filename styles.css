@@ -1,0 +1,118 @@
+*{    
+ box-sizing: border-box;
+margin: 0;
+padding: 10px;
+text-align: center;
+}
+.continer{
+    padding: 30px;
+}
+.js{
+    padding: 10px;
+ }
+
+
+
+body{
+    background-color: #181226;
+    color: white;
+    font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.p2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.css-input {
+    padding: 5px;
+    font-size: 20px;
+    border-width: 3px;
+    border-color: #cccccc;
+    color: #000000;
+    border-style: solid;
+    border-radius: 24px;
+    box-shadow: 0px 0px 12px rgba(66,66,66,.0);
+    -webkit-box-shadow: -1px 0 5px 0 #000000;
+    -moz-box-shadow: -1px 0 5px 0 #000000;
+    box-shadow: -1px 0 5px 0 #000000;
+}
+.css-input:focus {
+    outline:none;
+}
+
+.BUTTON_LZI {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px;
+    background-color: #C41210;
+    -webkit-box-shadow: -1px 0 10px 0 #000000;
+    -moz-box-shadow: -1px 0 10px 0 #000000;
+    box-shadow: -1px 0 5px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_LZI:hover {
+    background: #710806;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: -1px 0 10px 0 #000000;
+    -moz-box-shadow: -1px 0 10px 0 #000000;
+    box-shadow: -1px 0 10px 0 #000000;
+    text-decoration: none;
+ }
+
+ .text_final{
+     text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 10px;
+    background-color: #822AB0;
+    -webkit-box-shadow: -1px 0 5px 0 #000000;
+    -moz-box-shadow: -1px 0 5px 0 #000000;
+    box-shadow: -1px 0 5px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .baner{
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    font-family: Helvetica;
+    font-size: 42px;
+    font-weight: 200;
+    padding: 15px;
+    background-color: #3D89FC;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background: #2338FA;
+    background: linear-gradient(to right, #2338FA 4%, #C41210 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: -3px 1px 19px rgba(0,0,0,0.64);
+ }
+
