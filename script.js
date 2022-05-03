@@ -12,9 +12,26 @@ function calcular()
     //horas//
     var ry = ((rx / 60) / y);
     var rz = Math.round (Math.round (ry));
+    if(rz>1)
+    {
+        var h = " horas"; 
+    }
+    else
+    {
+        var h = " hora"
+    }
+
     //minutos//
     var ra = Math.round (100 * (ry - rz));
-
+    if(ra>1)
+    {
+        var m = " minutos"; 
+    }
+    else
+    {
+        var m = " minuto"
+    }
+console.log(h, m);
     //print resultado
-    r.innerHTML  += "tienes que leer durante " + rz + " horas y " + ra + " minutos los siguientes " + y + " días.";
+    r.innerHTML  += "tienes que leer durante " + rz + h +"  y " + ra + m + " los siguientes " + y + " días.";
 }
